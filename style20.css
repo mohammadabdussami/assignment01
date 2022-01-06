@@ -30,19 +30,19 @@ h3{
 }
 
 .partition{
-    width: 50%;
+    width: 60%;
     padding-left: 10%;
   
 }
 .partition img{
-    width: 100%;
+    width: 50%;
 }
 .img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(rgb(199, 74, 16), tomato);
@@ -51,39 +51,56 @@ h3{
     color: whitesmoke;
     font-weight: bold;
 }
-.top-banner{
+.first-bg{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .second-bg{
     background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
     background-position: left;
 }
-.box{
-    box-shadow: 5px 5px 20px orange;
-    margin-right: 1%;
-    margin-left: 1%;
-    padding: 2%;
-    border-radius: 60px;
-    border-left: 10px none orangered;
-    border-width: 25px;
-}
-#div{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.s3bg{
+.third-bg{
     background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
     background-position: right;
 }
+.fourth-bg{
+    background-image: url(images/shape-1.png);
+    background-position: right;
+}
+.repetition{
+    background-repeat: no-repeat;
+}
+.box{
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 60px;
+}
+.div{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.div1{
+    margin-right:5%;
+}
+#bcs{
+    background-image:linear-gradient(rgb(248, 188, 148),rgba(170, 241, 241, 0.068) );
+    box-shadow: 15px 15px 30px rgb(238, 180, 157);
+}
+#web-dev{
+    background-image:linear-gradient(rgb(247, 208, 208),rgba(248, 248, 223, 0.103) );
+    box-shadow: 15px 15px 30px rgb(240, 188, 92);
+}
+#m-learning{
+    background-image:linear-gradient(rgb(177, 226, 162),rgba(207, 207, 71, 0.13) );
+    box-shadow: 15px 15px 30px rgb(221, 241, 221);
+}
 .footer-div{
-    background-color: brown;
+    background-color: rgba(255, 102, 0, 0.521);
     text-align: center;
-    font-weight: bold;
 }
 #footer-txt1{
     font-family: cursive;
     font-size: 50px;
+    font-weight: bold;
 }
